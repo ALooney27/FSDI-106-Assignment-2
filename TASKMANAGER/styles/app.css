@@ -1,0 +1,41 @@
+h1 {
+  color: darkblue;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+
+h3 {
+  color: darkblue;
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  padding-bottom: 10px;
+}
+
+main {
+  display: flex;
+}
+
+.list {
+  flex: 5;
+}
+
+.info {
+  background-color: rgb(236, 236, 236);
+  flex: 3;
+  padding: 20px 15px;
+  height: calc(100vh - 79px);
+}
+
+#iImportant {
+  font-size: 32px;
+  color: #6a6b6c;
+  cursor: pointer;
+}
+
+.active {
+  color: rgb(192, 11, 11) !important;
+}
